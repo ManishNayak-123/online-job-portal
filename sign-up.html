@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONLINE JOB PORTAL</title>
+    <link rel="stylesheet" href="3rd-year-project.css">
+    <link rel="stylesheet" href="sign-up.css">
+</head>
+<body>
+    <header>
+    <nav>
+        <div id="section">
+            <div id="logo">
+            <a ><span class="j">JiViKa</a>
+            </div>
+           <!-- <div id="div-span"></div> -->
+           <input type="text" id="jobs"  placeholder="JOB TITTLE">
+           <button id="search">Search</button>
+           <div id="div-span-div">
+            <img  id = "div-imgage" src="india logo.png">
+           </div>
+        </div>
+        <div class="section-div">
+            
+            <ul>
+                <li><a class="navbar" href="3rd-year-project.html">Home</a></li>
+                <li><a  class="navbar" href>About us</a></li>
+                <li><a  class="navbar" href>Companies
+                       <div class="dropdown">
+                        <ul>
+                            <li>IT & Software</li>
+                            <hr>
+                            <li>Finance & Banking</li>
+                            <hr>
+                            <li>Healthcare & Training</li>
+                            <hr>
+                            <li>Education and Tranining</li>
+                            <hr>
+                            <li>Manufacture & Production</li>
+                            <hr>
+                            <li>Markiting & E-commerce</li>
+                            <hr>
+                            <li>Goverment & Public Sector</li>
+                        </ul>
+                       </div><span id="div-ul-li-span">▼</span>
+                </a></li>
+                <li><a class="navbar"  href = "job.html">Jobs</a></li>
+                <li><a class="navbar"  href>Services</a></li>
+                <li><a  class="navbar" href>Contact us</a></li>
+               
+            </ul> 
+        </div>
+    </nav>
+</header>
+<div id="footer-id">
+    <div class="container">
+        <div id="container-id-div">Sign Up-here
+        </div>
+        <form id="signupForm" onsubmit="return validateForm()">
+            <div class="form-group">
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" placeholder="Nayak ji" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="example@example.com" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="phone">Phone Number (Optional):</label>
+                <input type="tel" id="phone" name="phone" placeholder="63-98-07-00-34">
+            </div>
+            
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Create a username" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="********" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" placeholder="********" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="skills">Primary Skillset:</label>
+                <input type="text" id="skills" name="skills" placeholder="e.g., Web Development" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location" placeholder="City, State, or Country" required>
+            </div>
+            
+            <div class="form-group">
+                <label>Preferred Job Type:</label>
+                <select name="jobType" id="jobType" required>
+                    <option value="">Select a job type</option>
+                    <option value="full-time">Full-time</option>
+                    <option value="part-time">Part-time</option>
+                    <option value="contract">Contract</option>
+                    <option value="internship">Internship</option>
+                    <option value="remote">Remote</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="terms">
+                    <input type="checkbox" id="terms" name="terms" required> I agree to the <a href="#">Terms & Conditions</a>
+                </label>
+            </div>
+
+            <button type="submit" id="sign-up-div">Sign Up</button>
+        </form>
+    </div>
+
+    <script src="script.js">
+        function validateForm() {
+    // Get form elements
+    const fullName = document.getElementById("fullName").value;
+    const email = document.getElementById("email").value;
+    const username = document.getElementById("username").value;
+    const password = document.getElementById("password").value;
+    const confirmPassword = document.getElementById("confirmPassword").value;
+    const phone = document.getElementById("phone").value;
+    const jobType = document.getElementById("jobType").value;
+    const terms = document.getElementById("terms").checked;
+
+    // Clear previous error messages
+    const errorMessages = document.querySelectorAll(".error");
+    errorMessages.forEach(msg => msg.remove());
+
+    let isValid = true;
+
+    // Validate Full Name
+    if (fullName.trim() === "") {
+        showError("fullName", "Full Name is required.");
+        isValid = false;
+    }
+
+    // Validate Email
+    const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    if (!emailPattern.test(email)) {
+        showError("email", "Please enter a valid email address.");
+        isValid = false;
+    }
+
+    // Validate Username
+    if (username.trim() === "") {
+        showError("username", "Username is required.");
+        isValid = false;
+    }
+
+    // Validate Password
+    if (password.trim() === "") {
+        showError("password", "Password is required.");
+        isValid = false;
+    }
+
+    // Validate Confirm Password
+    if (confirmPassword !== password) {
+        showError("confirmPassword", "Passwords do not match.");
+        isValid = false;
+    }
+
+    // Validate Job Type
+    if (jobType === "") {
+        showError("jobType", "Please select your preferred job type.");
+        isValid = false;
+    }
+
+    // Validate Terms
+    if (!terms) {
+        showError("terms", "You must agree to the Terms & Conditions.");
+        isValid = false;
+    }
+
+    return isValid;
+}
+
+function showError(fieldId, message) {
+    const field = document.getElementById(fieldId);
+    const errorDiv = document.createElement("div");
+    errorDiv.classList.add("error");
+    errorDiv.textContent = message;
+    field.parentElement.appendChild(errorDiv);
+}
+
+    </script>
+</body>
+</html>
+
+</div>
+</body>
+</html>

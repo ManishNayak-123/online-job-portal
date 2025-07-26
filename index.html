@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONLINE JOB PORTAL</title>
+    <link rel="stylesheet" href="3rd-year-project.css">
+    <link rel="stylesheet" href="sign-in.css">
+</head>
+<body>
+    <header>
+    <nav>
+        <div id="section">
+            <div id="logo">
+            <a ><span class="j">JiViKa</a>
+            </div>
+           <!-- <div id="div-span"></div> -->
+           <!-- <input type="text" id="jobs"  placeholder="JOB TITTLE">
+           <button id="search">Search</button> -->
+           <div id = "search-box-container">
+            <div id = "search-box-working">
+         <input type="text" id="input-box"  placeholder="JOB TITTLE" autocomplete="off">
+           <a href="job.html"><button id="search">Search</button></a>
+           </div>
+           <div class ="result-box">
+            
+           </div>
+           </div>
+           <div id="div-span-div">
+            <img  id = "div-imgage" src="india logo.png">
+           </div>
+        </div>
+        <div class="section-div">
+            <ul>
+                <li><a class="navbar" href="3rd-year-project.html">Home</a></li>
+                <li><a  class="navbar" href ="about us.html">About us</a></li>
+                <li><a  class="navbar" href>Companies
+                       <div class="dropdown">
+                        <ul id="dropdown-software">
+                            <li><a href="https://en.wikipedia.org/wiki/List_of_Indian_IT_companies">IT & Software</a></li>
+                            <hr>
+                            <li><a href="https://www.ibef.org/industry/banking-india">Finance & Banking</a></li>
+                            <hr>
+                            <li><a href="">Healthcare & Training</a></li>
+                            <hr>
+                            <li><a href="">Education and Tranining</a></li>
+                            <hr>
+                            <li><a href="">Manufacture & Production</a></li>
+                            <hr>
+                            <li><a href="">Markiting & E-commerce</a></li>
+                            <hr>
+                            <li><a href="">Goverment & Public Sector</a></li>
+                        </ul>
+                       </div><span id="div-ul-li-span">▼</span>
+                </a></li>
+                <li><a class="navbar"  href = "job.html">Jobs</a></li>
+                <li><a class="navbar"  href>Services</a></li>
+                <li><a  class="navbar" href = "#">Contact us</a></li> 
+            </ul> 
+        </div>
+    </nav>
+</header>
+<footer>
+    <div>
+        <div>
+    <a href="sign in.html"><button class="footer-sign">sign in</button></a>
+    <a href="sign-up.html"><button class="footer-sign">sign up</button></a>
+    </div>
+<!-- <center><h1 class="h1-center">For every hard work, <span class="h1-center-span">help to get</span> </h1></center>
+<center><h1 class="h1-center"> <span class="h1-center-span">better </span>opportunity</h1></center> -->
+<div id="transition">
+    <div id="transition-div">
+<h2 id="div-h2-what">What's new</h2>
+    </div>
+    <div id="transition-div-div">
+        <p >AI and Ml Engineering..</p>
+        <hr>
+        <p>Head of information Technology</p>
+        <hr>
+        <p>IT networking...</p>
+        <hr>
+        <p>IT support speciallist...</p>
+        <hr>
+        <p>Product manager</p>
+        <hr>
+        <p>Robotic process Automation..</p>
+        <hr>
+        <p>Data scientist</p>
+        <hr>
+        <p>Cloud Computing...</p>
+        <hr>
+        <p>Block Chain Developer...</p>
+        <hr>
+        <p>DevOps</p>
+    </div>
+</div>
+    <!-- <div id="footer-div">
+        <div id="footer-div-div">
+             <center><h1 class="h1-center-span">FOR SEARCH</h1></center>
+             <h2 class="h2-center-span">Login</h2>
+             <button class="center-h2-button">Login</button>
+             <h2 class="h2-center-span">Register</h2>
+             <button class="center-h2-button">Register</button>
+        </div>
+    </div> -->
+  
+    </div>
+</footer>
+<div id="footer-header-box">
+ <p id="paragraph-of-web">This is the free of cost website which is available on the internet and this will be help you to get your favourite job. In order to access more resourses only you have to login on this web.</p>
+</div>
+<div>
+    <center><h1 style="color:#ff9933">You can share your experience and your achievement on this plateform.</h1></center>
+</div >
+<!-- whole online job portal -->
+<div id="whole-online-job-portal">
+<div class="div-id-box-combination">
+<div id="linked-in-portal">
+    <img id="img-src-linked-in-jobs" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAllBMVEUMZMX///8AYcQAWcFDf8nL3PIAWrzQ3vMAYcI0eclZjtAucslAgsz6/v3x9/sgbclOhM8AX8QAYsAAX70AV70AWMLm7vgAXb4sdsw5fsoRbsVmltK6z+iUt+AMZcGDrN3c6fNvnddiltWqwuPA0+r0+vyOrt+lweR9pduuyueUst9Lh81pldd1mtYdbcunxOXO4u7Z4fGRyVlRAAAEKUlEQVR4nO3ce1faMBzG8SblEpSCiUUuQrkMhsCc+v7f3Ko4KjW/yLY0WXOez9mf4Ml3vSW1NYoAAAAAAAAAAAAAAAAAAAAAAAAAAADgYiriIsqU72FURcapGnXHk5aMue+xVCCT6n56x960Z2OpMt8jsozz+Xve0Xqc+h6SXbKzYOeSfex7UBap+J591lThHI3awPxw5KGcVFUj0RayaRrI6UaUj8GTpfA9NivknApkvTC2YdwjC9lc+h6dBWpFB7JFCIXx1FDIRr6HZ0Fq2EkZewjgXNMnLhVH34a+x/fPeMdYOK3/gchvTIFsXf/ZKR+bC+u/DcW1cS/d1f84jFobU+H3ANYXadNU2PU9PAvkd0Ngz/forMgMhU/1P5Xm4h0ZmHQCOAzz68WEPNdsg9iE+ZH4QATeBTApPYqf9PvoKIh99E2qOxQ3jVvf47JHDT5fMl5GAQW+3tNvnF/4N3shwrhJc8Ljw/Q0Q13MJ4GcRc8IORjP99vZfpWlQe2gH3EZx7Gs/4IJAADqQ3DJX/+FM38vqHyKlA5Hhx+Pj49X43468P34CheEiz9Z+pTMlrvFaQ6YbNrblRpKf6vNbHRNKX2yT/kwSVd5XluzGGs//Ew9NfIGS/RYs3X2yUGzp7dpnMYu+zPql1mbp46f+XxeSCkVxrpt8+bmWJgJOTPeYP7m5QkWi4Wye0d94t3m3sNmtFao5OyLvle7zPnRaKlQCb6+IDBfXvddJ1oq5BH5WE7JXd/xwWilUKnJpYGM9a7dPk5mpfCWP18cmO+okdOtaKVwYHxm5ZP1wOWNPBuFneUfBTK2dHkzyEbhwfirco3NxOF+aqPw8rPMbzuHV34bhX+h4e6q6KnQ4ZM6ngrZyNlG9FXo7hfMvgp7zt7o8FXIDq52U2+FznbTKgovmgAsalq4mB0mQqjJYfvler98o6sWhevuYPh2C5jz4WD1ReMPR4soi4W91dmtXy7MK469o7mpvcLn8nRaSWPi9PzH/++FCXvW3LuXpoXxi6MllK1tqHtGLBMd0zccLYNtFR60W8T0wkqv7yTQVuGTfpfLuvRXkms3sxo7hQlx/yy7NayOO3Uq3MXExY148PFY6OZyYafwihqsXNJfGteoMCGXQoYfzxo1KmxSO2kkJvTLcXUq3BreraFnp3UqNLwT3aJPpnUqPNBjTV+CKDScFVv0t+pUaLiytegXq1BoCQoLKNRDYfVQWEChHgqrh8ICCvVQWD0UFlCoh8LqobCAQj0UVg+FBRTqobB6KCygUA+F1UNhAYV6KKweCgso1ENh9VBYQKEeCquHwkKAhe1SIf2UoaFwSP+/dB29FtTvUsbnH+Q3VxTDmxOq+zffskqJiOtFpZda+OV/M6uQKepLof0NWAAAAAAAAAAAAAAAAAAAAAAAAAAAgAr8Aj5RWY0PDbn2AAAAAElFTkSuQmCC">
+  <div id="linked-in-portal-div"> 
+    <h2>Get Jobs.</h2>
+    <a href="https://in.linkedin.com/"><button id="button-go">Go</button></a>
+  </div>
+  </div>
+  </div>
+  <!-- second box -->
+  <div>
+    <div id="glassdoor-in-portal">
+        <img id="img-src-linked-in-jobs" src="https://www.glassdoor.com/employers/app/uploads/sites/2/2020/11/logo-1200x630-1.png">
+      <div id="linked-in-portal-div"> 
+        <h2>Get Jobs.</h2>
+        <a href="https://www.glassdoor.co.in/index.htm"><button id="button-go-go">Go</button></a>
+      </div>
+      </div>
+      </div>
+    <!-- third box -->
+     <div>
+        <div id="glassdoor-in-portal">
+            <img id="img-src-linked-in-jobs" src="https://media.licdn.com/dms/image/C4D12AQFr26O-L_zHXw/article-cover_image-shrink_600_2000/0/1520077587000?e=2147483647&v=beta&t=hNYt7BHFmImXAka11EhMfXI8fRxwfG7a7ryfQ1AESLM">
+          <div id="linked-in-portal-div"> 
+            <h2>Get Jobs.</h2>
+            <a href="https://www.ziprecruiter.in/"><button id="button-go-go-go">Go</button></a>
+          </div>
+          </div>
+     </div>
+     </div>
+</div>
+<!-- 3 d images for job portal -->
+
+<div class ="threed-images">
+    <center><img class ="threed-images"  src= "3d image for portal.jpg"></center>
+</div>
+</div>
+
+<!-- job boxes of job portal -->
+ <center><h2 style="color:pink">FEATURED TOUR PACKAGES</h2></center>
+ <center><h1 id = "browse-top-id"  >Browse Top Categories</h1></center>
+<div id = "div-browse-top-id">
+    <div class ="div-div-browse-top-id"> 
+        <div>
+        <img id = "img-creative-class" src = "creative_1420941.png">
+        </div>
+        <h2><a href="https://in.indeed.com/career-advice/career-development/what-is-creative-design">Design & Creative</a></h2>
+    </div>
+    <div class ="div-div-browse-top-id">
+        <div>
+            <img id = "img-creative-class" src = "web-designing_10939312.png">
+            </div>
+            <h2><a href="https://www.naukri.com/design-development-jobs?k=design%20development&experience=1&nignbevent_src=jobsearchDeskGNB">Design & Development</a></h2>
+         </div>
+    <div class ="div-div-browse-top-id">
+        <div>
+            <img id = "img-creative-class" src = "market-growth_18063913.png">
+            </div>
+            <h2><a href ="https://www.semrush.com/website/top/india/e-commerce-and-retail/">Sales & Markit</a></h2>
+         </div>
+    <div class ="div-div-browse-top-id">
+        <div>
+        <img id = "img-creative-class" src = "application_13643524.png">
+    </div>
+    <h2><a href="https://www.naukri.com/mobile-application-jobs"> Mobile Applications</a></h2>
+    </div>
+</div>
+    <!-- second row of jobs icon -->
+    <div id = "div-browse-top-id-second">
+        <div class ="div-div-browse-top-id"> 
+            <div>
+            <img id = "img-creative-class" src = "hard-hat_17679543.png">
+            </div>
+            <h2><a href= "https://www.naukri.com/construction-jobs">Construction</a></h2>
+        </div>
+        <div class ="div-div-browse-top-id">
+            <div>
+                <img id = "img-creative-class" src = "gis_9570815.png">
+                </div>
+                <h2><a href="https://www.linkedin.com/jobs/information-technology-jobs/?currentJobId=4091691801&originalSubdomain=in">Information Technology</a></h2>
+             </div>
+        <div class ="div-div-browse-top-id">
+            <div>
+                <img id = "img-creative-class" src = "house_1018573.png">
+                </div>
+                <h2><a href ="https://www.naukri.com/real-estate-jobs">Real Estate</a></h2>
+             </div>
+        <div class ="div-div-browse-top-id">
+            <div>
+            <img id = "img-creative-class" src = "writer_3079941.png">
+        </div>
+        <h2><a href= "https://in.indeed.com/q-content-writer-l-delhi,-delhi-jobs.html?vjk=fa0cad008b24b168">Content Writer</a></h2>
+        </div>
+    </div>
+
+
+ <!-- end second icon -->
+  <!-- apply process -->
+   <div id ="apply-process-div">
+    <h2 id="apply-id-h2">APPLY PROCESS</h2>
+    <h1 id = "how-it-works-id">How It Works</h1>
+    <div id = "apply-process-container-box">
+    <div class="how-it-works-id-div-apply-process">
+        <div>
+        <img class= "img-src-search" src="search_8041019.png">
+        </div>
+        <h2 class="search-a-job-div-h2">Search a job</h2>
+    </div>
+    <div class="how-it-works-id-div-apply-process">
+        <div>
+        <img class= "img-src-search"  src = "job-offer_18276282.png">
+        </div>
+        <h2 class="search-a-job-div-h2">Apply for job</h2>
+    </div>
+    <div class="how-it-works-id-div-apply-process">
+        <div>
+        <img  class= "img-src-search" src = "job-search_535989.png">
+        </div>
+        <h2 class="search-a-job-div-h2">Get your job</h2>
+    </div>
+    </div>
+
+   </div>
+
+
+<div id="input-type-placeholder">
+    <div id="img-src-input-type-placeholders">
+        <img id="online-job-png-img" src="online-job.png">
+    </div>
+    <div class="img-src-input-type-placeholder">
+    <input class="text-placeholder" type="text" id="text" placeholder="search job">
+    <br>
+    <input  class="text-placeholder" type="text" id="text" placeholder="search-location">
+    <br>
+    <button id="text-search-placeholder">search</button>
+    </div>
+</div>
+<br>
+<!-- <div class="map-container">
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093716!2d144.95373631531823!3d-37.8172099797519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce7e33!2sMelbourne%20VIC%2C%20Australia!5e0!3m2!1sen!2sus!4v1615376379810!5m2!1sen!2sus" 
+      allowfullscreen="" 
+      loading="lazy">
+    </iframe>
+    </div> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<hr id="hr-bg-color">
+<div class="footer-div-bottom-image">
+  <div class="class-footer-div-bottom-image">
+    <center><h1 style="color:black">About us</h1></center>
+    <p id="welcome-id">Welcome to [JiViKa-online job portal]  your one-stop destination for finding the right job or the perfect candidate. We are dedicated to 
+        bridging the gap between talented professionals and companies looking to build exceptional teams. Our platform empowers job
+         seekers and employers alike with efficient, reliable, and easy-to-use tools that 
+         streamline the hiring process and support career growth.</p>
+         <div id="image-id-p-center">
+            <div class="image-id-p-center-class"><a href="https://www.facebook.com/help/668969529866328"><img class="img-src-div-class-image" src="https://store-images.s-microsoft.com/image/apps.30645.9007199266245907.cb06f1f9-9154-408e-b4ef-d19f2325893b.ac3b465e-4384-42a8-9142-901c0405e1bc"></a></div>
+            <div class="image-id-p-center-class"><a href="https://www.whatsapp.com/download"><img  class="img-src-div-class-image" src="https://store-images.s-microsoft.com/image/apps.8453.13655054093851568.4a371b72-2ce8-4bdb-9d83-be49894d3fa0.7f3687b9-847d-4f86-bb5c-c73259e2b38e"></a></div>
+            <div class="image-id-p-center-class"><a href="https://www.instagram.com/accounts/login/?hl=en"><img class="img-src-div-class-image"  src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png"></a></div>
+            <div class="image-id-p-center-class"><a href="https://twitter.com/i/flow/signup?lang=en"><img class="img-src-div-class-image"  src="https://pbs.twimg.com/profile_images/1683507906891718658/ZS9jJfar_400x400.jpg"></a></div>
+            <div class="image-id-p-center-class"><a href="https://www.youtube.com/"><img  class="img-src-div-class-image" src="https://play-lh.googleusercontent.com/6am0i3walYwNLc08QOOhRJttQENNGkhlKajXSERf3JnPVRQczIyxw2w3DxeMRTOSdsY"></a></div>
+         </div>
+  </div>
+  <div class="class-footer-div-bottom-image">
+    <center><h1>Quick Links</h1></center>
+    <div id = "quick-links-for-exception-case" >
+    <ul id="Quick-links-bottom">
+        <li class="Quick-links-bottom-home-about-us"><a class="Quick-links-bottom-home" href="">Home</a></li>
+        <li class="Quick-links-bottom-home-about-us"><a class="Quick-links-bottom-home"  href="">About us</a></li>
+        <li class="Quick-links-bottom-home-about-us"><a class="Quick-links-bottom-home"  href="">Jobs</a></li>
+        <li class="Quick-links-bottom-home-about-us"><a class="Quick-links-bottom-home"  href="">Services</a></li>
+        <li class="Quick-links-bottom-home-about-us"><a class="Quick-links-bottom-home"  href="">Companies</a></li>
+        <li class="Quick-links-bottom-home-about-us"><a class="Quick-links-bottom-home"  href="">Contact us</a></li>
+        <li class="Quick-links-bottom-home-about-us"><a class="Quick-links-bottom-home"  href="">sign-in</a></li>
+        <li class="Quick-links-bottom-home-about-us"><a class="Quick-links-bottom-home" href="">sign-up</a></li>
+        <li class="Quick-links-bottom-home-about-us"><a class="Quick-links-bottom-home" href="">Our stories</a></li>
+        <li class="Quick-links-bottom-home-about-us"><a class="Quick-links-bottom-home" href="">Terms & conditions</a></li>
+    </ul>
+    </div>
+  </div>
+  <div class="class-footer-div-bottom-image">
+    <center><h1>Contact Info</h1></center>
+    <ul id="Quick-links-bottom">
+        <li class="Quick-links-bottom-home-about-us">FAQs</li>
+        <li class="Quick-links-bottom-home-about-us">Meadia coverage</li>
+    </ul>
+    
+    <h2>Phone No: 6397030034</h2>
+    <h2>Email Id: mn1314313@gmail.com</h2>
+    
+</div>
+</div>
+<div id="footer-website-copyright">
+<p id="copyright">© 2024 JiViKa. All rights reserved.</p>
+
+</div>
+<script src="3rd-year-project.js"></script>
+</body>
+</html>

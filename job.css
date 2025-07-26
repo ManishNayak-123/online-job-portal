@@ -1,0 +1,107 @@
+.mn-job-container{
+    height: 300px;
+    border:1px solid black;
+    border-radius:10px;
+    margin-top:20px;
+    display:flex;
+    
+}
+#id-mn-job-container{
+    height: 300px;
+    width:600px;
+    border:0  solid black;
+}
+#img-src-mn-job-container{
+
+    height: 300px;
+    width:600px;
+    
+}
+#div-find-jobs{
+    margin-left:150px;
+    color:#ff9933;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top:60px;
+}
+#linked-in-portal{
+    height: 200px;
+    width:415px;
+    background-color: #387780;
+    /* margin-left:500px; */
+    margin-left: 25px;
+    box-shadow:  0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+}
+#linked-in-portal-div{
+    height: 200px;
+    width:310px;
+    background-color: #ff9933;
+    border-radius: 10px;
+    margin-left: 40px;
+
+}
+#img-src-linked-in-jobs{
+    border-radius: 50%;
+    background-image: cover;
+    height: 150px;
+    width: 150px;
+    margin:20px 0 0 30px;
+}
+#button-go{
+    height: 30px;
+    width:150px;
+    background-color: blue;
+    margin-left:25px;
+    border-radius: 20px;
+
+}
+/* next box */
+#glassdoor-in-portal{
+    height: 200px;
+    width:415px;
+    background-color: #387780;
+    margin-left:80px;
+    /* margin: 100px 0 0 500px; */
+     /* box-shadow:  0 2px 10px rgba(0, 0, 0, 0.1); */
+    box-shadow:  0 2px 10px white; 
+     
+    border-radius: 10px;
+    display: flex;
+   
+}
+#button-go-go{
+    height: 30px;
+    width:150px;
+    background-color: rgb(0, 255, 89);
+    margin-left:25px;
+    border-radius: 20px;
+
+}
+/* third box */
+#button-go-go-go{
+    height: 30px;
+    width:150px;
+    background-color: rgba(0, 0, 0, 0.625);
+    margin-left:25px;
+    border-radius: 20px;
+
+}
+#whole-online-job-portal{
+    display: flex;
+    width:50px;
+
+}
+h2{
+    margin-left:20px;
+}
+#button-wikipidea{
+    text-align: center;
+    height: 50px;
+    width:200px;
+    background-color: blue;
+    border-radius: 50px;
+    font-size:20px;
+    color:black;
+}

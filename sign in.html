@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONLINE JOB PORTAL</title>
+    <link rel="stylesheet" href="3rd-year-project.css">
+    <link rel="stylesheet" href="sign-in.css">
+</head>
+<body>
+    <header>
+    <nav>
+        <div id="section">
+            <div id="logo">
+            <a ><span class="j">JiViKa</a>
+            </div>
+           <div id="div-span"></div>
+            <input type="text" id="jobs"  placeholder="JOB TITTLE">
+           <button id="search">Search</button>
+           <div id="div-span-div">
+            <img  id = "div-imgage" src="india logo.png">
+           </div>
+        </div>
+        <div class="section-div">
+            
+            <ul>
+                <li><a class="navbar" href="3rd-year-project.html">Home</a></li>
+                <li><a  class="navbar" href>About us</a></li>
+                <li><a  class="navbar" href>Companies
+                       <div class="dropdown">
+                        <ul>
+                            <li>IT & Software</li>
+                            <hr>
+                            <li>Finance & Banking</li>
+                            <hr>
+                            <li>Healthcare & Training</li>
+                            <hr>
+                            <li>Education and Tranining</li>
+                            <hr>
+                            <li>Manufacture & Production</li>
+                            <hr>
+                            <li>Markiting & E-commerce</li>
+                            <hr>
+                            <li>Goverment & Public Sector</li>
+                        </ul>
+                       </div><span id="div-ul-li-span">▼</span>
+                </a></li>
+                <li><a class="navbar"  href = "job.html">Jobs</a></li>
+                <li><a class="navbar"  href>Services</a></li>
+                <li><a  class="navbar" href>Contact us</a></li>
+               
+            </ul> 
+        </div>
+    </nav>
+</header>
+<div id="footer-content">
+    <div class="container">
+        <div id="sign-in-account">
+           Login here
+        </div>
+        <form id="signInForm" onsubmit="return validateForm()">
+            <div class="input-group">
+                <label for="email" class="lable-email">Email:</label>
+                <input type="email" id="email" class="email-password" name="email" placeholder="Enter your email" required>
+                <small id="emailError"></small>
+            </div>
+            <div class="input-group">
+                <label for="password" class="lable-email">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                <small id="passwordError"></small>
+            </div>
+            <button type="submit" id="button-sign-in">Sign In</button>
+        </form>
+        <p class="signup-link">Don't have an account? <a href="sign-up.html">Sign up</a></p>
+    </div>
+
+</div>
+<script src="sign-in.js"></script>
+</body>
+</html>

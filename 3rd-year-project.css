@@ -1,0 +1,672 @@
+*body{
+    color:white;
+    padding: 0;
+    margin:0;   
+}
+footer{
+     margin-top: -23px;
+     background-image: url(find-job-today.jpg);
+    /*background-image:url(https://cdn.outsourcingstaff.ph/blog/wp-content/uploads/top-reasons-employers-turn-to-online-job-portals-for-hiring.png);  */
+    /* background-image: url(https://www.shutterstock.com/image-photo/job-search-opportunities-internet-word-260nw-1024654192.jpg); */
+    /* background-image: url(job\ 2\ image.png); */
+    /* background-image: url(job\ image.png); */
+    /* background-image: url(manish\ job\ 3.avif); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1150px;
+    /* position: absolute; */
+    margin-top: 0px;
+
+    height: 650px;
+    /* width: 1500px; */
+}  
+#section{
+    height: 100px;
+    /* background-color:	#ff9933; */
+    background-color:#387780;
+    display: flex;
+   
+}
+#logo{
+    height: 60px;
+    width:150px;
+    border:5px solid black;
+    padding:10px;
+    font-size: 25px;
+    background-color: white;
+    margin: 5px 0 5px 5px;
+    border-radius: 10px;
+ 
+}
+.j{
+    color:#ff9933;
+    font-size: 50px;
+    font-weight: bold;
+    
+    text-transform: none;
+}
+/* #div-span{
+    height:20px;
+    width:20px;
+    background-color: white;
+    border:2px solid black;
+   
+    
+} */
+#online{
+    font-size: 35px;
+    color:#ff9933;
+    font-weight: bold;
+    width: 450px;
+}
+
+#div-span-div{
+    height:80px;
+    width:170px;
+    background-color: white;
+    border:5px solid black;
+    margin: 5px 5px 5px 340px;
+    border-radius: 10px;
+    
+ 
+   
+}
+#div-imgage{
+    height: 80px;
+    width: 150px;
+    background-image: cover;
+    border-radius: 10px;
+    
+}
+#jobs{
+    height: 70px;
+    width:400px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left:320px;
+}
+/* search bar working from here */
+#input-box{
+    flex:1;
+    height: 53px;
+    width:400px;
+    border: none;
+    border-radius: 5px;
+    outline:0;
+    margin-top: 10px;
+    margin-left:320px;
+    font-size:18px;
+  
+}
+#search-box-working{
+    display: flex;
+    height: 70px;
+    width:740px;
+  
+}
+.result-box{
+    width: 380x;
+    margin-top:13px;
+   font-size: 20px;
+   background-color:#ff9933;
+   margin-left:320px;
+   color:black;
+   position: relative;
+    border-radius: 20px;
+    cursor: pointer;
+    max-height: 450px;
+    overflow-y: scroll;
+}
+
+
+.result-box #result-box-div{
+    border-top:1px solid #9999;
+    padding:15px 10px;
+}
+.result-box ul li{
+    list-style: none;
+    border-radius: 3px;
+    padding:15px 10px;
+    cursor:pointer;
+    font-size: 18px;
+
+}
+.result-box ul li:hover{
+    background-color: #387780;
+    color:#ff9933;
+}
+
+/* for the color of search bar text*/
+::placeholder{
+    color:#555;
+}
+/* search bar is ending from here */
+#search{
+    height: 75px;
+    background-color:#ff9933 ;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.section-div{
+    background-color: #ff9933;
+    height: 60px;
+    margin-top: -20px;
+    
+}
+ul{
+    
+    list-style-type:none;
+    background-color: #ff9933;
+    border-radius: 10px;
+    
+}
+/* fitting of dropdown navbar */
+.section-div ul li {
+    display: inline-block;
+    margin-top:15px;
+    color:black;
+    margin-left:130px;
+
+}
+
+ul li a{
+    
+    color:black;
+}
+ul li a:hover{
+    background-color: #387780;
+    border-radius: 2px;
+    color:#ff9933;
+    
+}
+.navbar{
+    text-decoration: none;
+    font-size:20px;
+   
+   
+}
+#div-ul-li-span{
+    font-size: small;
+
+}
+.dropdown ul li hr{
+    background-color: #387780;
+}
+.dropdown{
+    display: none;
+    width: 320px;
+    
+}
+ul li:hover .dropdown {
+    display: block;
+    position:absolute;
+    margin-left:-3.5rem;
+    margin-top:4px;
+   cursor: pointer;
+   /* border-radius: 3px; */
+}
+.dropdown ul {
+    margin:0;
+    padding:0;
+    
+ }
+
+.dropdown ul li{
+    display:block;
+    font-size:medium;
+    padding: 1px;
+    margin-right: 10px;
+   
+}
+.dropdown ul li:hover{
+    background-color: #387780;
+    border-radius: 2px;
+    color:#ff9933 ;
+}
+.h1-center-span{
+    color:red;
+}
+.h1-center{
+    /* color:#387780; */
+    /*A66E38 color:#FBFBFB; */
+    color: #ff9933;
+    margin-top: -0px;
+    font-weight: bold;
+    font-style:inherit;
+}
+.h2-center-span{
+    margin: 20px 0 0 20px;
+    color:#ff9933 ;
+}
+.center-h2-button{
+    margin:30px 0 0 20px;
+    height: 25px;
+    width: 100px;
+    border-radius:10px;
+}
+/* #div-h2-what{
+    color:#ff9933;
+    background-color: aqua;
+} */
+#footer-div{
+    height:350px;
+    width:280px;
+    background-color: #387780;
+    border-radius: 5px;
+    margin-top:5px;
+    position: sticky;
+}
+/* view-transition */
+#transition{
+    height: 650px;
+    width: 307px;
+    background-color:#E4E0E1;
+    margin-left: 71.90rem;
+    margin-top: -55px;
+
+}
+#transition-div{
+    height: 60px;
+    color:#ff9933;
+    background-color:#468585 ;
+    box-shadow: inset;
+
+}
+#transition-div-div{
+    height: 50px;
+    width: 250px;
+    color:black;
+    position: absolute;
+    text-align: center;
+    /* background-color: #ff9933; */
+    animation-delay: 0s;
+    animation-name: moveUp;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    white-space:nowrap;
+    /* animation: moveUp 3s ease-in-out forwards; */
+
+}
+@keyframes moveUp{
+
+   0%{
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  50%{
+    opacity: 1;
+  } 
+   100%{
+    transform:translateY(-100%);
+    opacity: 0;
+  } 
+}
+/* sign in and sign up form */
+.footer-sign{
+    margin:5px 0 0 5px;
+    height: 30px;
+    width: 80px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    color:blue;
+    font-weight: bold;
+}
+/* #footer-header-box{
+    height: 60px;
+    background-color: #387780;
+    color:#ff9933;
+    margin-top:20px;
+    font-size: 20px;
+    text-align: center;
+    margin-top:-60px;
+    margin-bottom:20px;
+  
+} */
+ #footer-header-box {
+    height: 60px;
+    background-color: #387780;
+    color:#ff9933;
+    /* margin-top:20px; */
+    font-size: 20px;
+    background-color: #387780;
+    text-align: center;
+    margin-top:-60px;
+    /* margin-bottom:20px; */
+
+  
+  }
+  #paragraph-of-web{
+    font-weight: bold;
+    white-space: nowrap;
+    /* animation: moveLeftToRight 15s linear infinite; */
+    font-size: 25px;
+    animation: moveRightToLeft 15s linear infinite;
+    padding-top: 10px;
+  }
+  
+  @keyframes moveRightToLeft {
+    0% {
+      transform: translateX(100%); /* Start off-screen on the left */
+    }
+    100% {
+      transform: translateX(-100%); /* End off-screen on the right */
+    }
+  }
+#linked-in-portal{
+    height: 200px;
+    width:415px;
+    background-color: #387780;
+    /* margin-left:500px; */
+    margin-left: 25px;
+    box-shadow:  0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+}
+#linked-in-portal-div{
+    height: 200px;
+    width:310px;
+    background-color: #ff9933;
+    border-radius: 10px;
+    margin-left: 40px;
+
+}
+#img-src-linked-in-jobs{
+    border-radius: 50%;
+    background-image: cover;
+    height: 150px;
+    width: 150px;
+    margin:20px 0 0 30px;
+}
+#button-go{
+    height: 30px;
+    width:150px;
+    background-color: blue;
+    margin-left:25px;
+    border-radius: 20px;
+
+}
+/* next box */
+#glassdoor-in-portal{
+    height: 200px;
+    width:415px;
+    background-color: #387780;
+    margin-left:80px;
+    /* margin: 100px 0 0 500px; */
+     /* box-shadow:  0 2px 10px rgba(0, 0, 0, 0.1); */
+    box-shadow:  0 2px 10px white; 
+     
+    border-radius: 10px;
+    display: flex;
+   
+}
+#button-go-go{
+    height: 30px;
+    width:150px;
+    background-color: rgb(0, 255, 89);
+    margin-left:25px;
+    border-radius: 20px;
+
+}
+/* third box */
+#button-go-go-go{
+    height: 30px;
+    width:150px;
+    background-color: rgba(0, 0, 0, 0.625);
+    margin-left:25px;
+    border-radius: 20px;
+
+}
+#whole-online-job-portal{
+    display: flex;
+    width:50px;
+
+}
+/* bottom setup of the image */
+.footer-div-bottom-image{
+    height: 650px;
+    background-color: #387780;
+    margin-top:-10px;
+    display: flex;
+
+}
+#hr-bg-color{
+    background-color:#387780;
+    height: 5px;
+    margin-top:20px;
+
+}
+.class-footer-div-bottom-image{
+    height: 500px;
+    width:400px;
+    background-color:#387780;
+    border-radius: 10px;
+    box-shadow:  0 2px 10px white;
+    border:5px solid #468585;
+    margin: 70px 0 0 57px;
+}
+#welcome-id{
+    font-size:20px;
+    text-align: justify;
+    padding: 5px;
+    color:black;
+    font-weight: bold;
+}
+/* 
+ div .Quick-links-bottom .Quick-links-bottom-home-about-us {
+   background-color: #387780;
+} */
+.Quick-links-bottom-home{
+    background-color:#387780;
+}
+#Quick-links-bottom{
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #387780;
+
+  
+}
+
+.Quick-links-bottom-home-about-us{
+    font-size: 20px;
+    text-decoration: none;
+    margin-top:15px;
+    color:black;
+    background-color:#387780;
+   
+}
+
+/* exception case in list  */
+/* .class-footer-div-bottom-image .quick-links-for-exception-case #Quick-links-bottom{
+    background-color: #387780;
+} */
+#image-id-p-center{
+    height: 100px;
+    display: flex;
+}
+.image-id-p-center-class{
+    height: 70px;
+    width:70px;
+    background-color: cover;
+    border-radius: 50%;
+
+}
+.img-src-div-class-image{
+    height: 70px;
+    width:70px;
+    border-radius: 50%;
+}
+#input-type-placeholder{
+height: 350px;
+/* border:1px solid black; */
+box-shadow:  0 2px 10px rgba(0, 0, 0, 0.1);
+margin-top:50px;
+display: flex;
+
+}
+.text-placeholder{
+height: 50px;
+width:400px;
+margin:50px 0 0 550px;
+}
+#text-search-placeholder{
+    height:50px;
+    width:150px;
+    margin:20px 0 0 700px;
+    background-color: #ff9933;
+    border: 1px solid black;
+    border-radius:30px;
+    
+}
+.img-src-input-type-placeholder{
+    height: 350px;
+    width:300px;
+    margin-left: -400px;
+}
+#img-src-input-type-placeholders{
+    height: 340px;
+    width: 600px;
+   
+    background-image: cover;
+    margin-left:10px;
+
+}
+#online-job-png-img{
+    height: 340px;
+    width:600px;
+   
+    background-image: cover;
+   
+}
+.map-container {
+    width: 100%;
+    max-width: 1500px;
+    height: 450px;
+    margin: 0 auto;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+  #footer-website-copyright{
+    height: 60px;
+    background-color:black;
+    margin-top: -25px;
+    color:white;
+    text-align: center;
+    font-size: 25px;
+
+  }
+  #copyright{
+    padding-top: 15px;
+  }
+  body {
+    font-size: 16px;
+}
+  .threed-images{
+    height: 600px;
+    width: 1000px;
+    margin-left:110px;
+    margin-top:20px;
+
+  }
+  #browse-top-id{
+    color:blue;
+    font-size: 45px;
+    font-weight: bold;
+  }
+  #div-browse-top-id{
+    height: 600px;
+    display: flex;
+
+  }
+  #div-browse-top-id-second{
+
+    display: flex;
+    margin-top:-250px;
+
+  }
+  .div-div-browse-top-id{
+    background-color: white;
+    height: 300px;
+    width:300px;
+    box-shadow:  0 2px 10px rgb(67, 65, 65);
+    margin-left: 50px;
+    text-align: center;
+    margin-top:60px;
+  }
+  #img-creative-class{
+    height: 120px;
+    width: 120px;
+    margin-top:50px;
+  }
+  #apply-process-div{
+    height: 700px;
+    background-color: rgb(75, 75, 172);
+    margin-top:100px;
+  }
+  #apply-id-h2{
+    color:pink;
+    font-weight: bold;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 20px;
+  }
+  #how-it-works-id{
+    color:white;
+    font-weight: bold;
+    padding-top:20px;
+    text-align: center;
+    font-size: 50px;
+  }
+  #apply-process-container-box{
+    height: 300px;
+    display: flex;
+
+  }
+  .how-it-works-id-div-apply-process{
+    height: 350px;
+    width: 330px;
+    background-color:  00FFFFFF;
+    margin-left:120px;
+    box-shadow:  0 2px 10px white;
+    margin-top:50px;
+    color:white;
+  }
+  .img-src-search{
+    height: 120px;
+    width: 120px;
+    margin:50px 0 0 100px;
+    color:white;
+  }
+  .search-a-job-div-h2{
+    color:white;
+    font-size:30px;
+  }
+
+
+@media (min-width:1024px) and (max-width:1366px){
+    body {
+        font-size: 14px;
+    }
+    nav{
+        width:1024px;
+    }
+    div{
+        width:800px;
+    }
+    header{
+        width:800px;
+    }
+    footer{
+        width:800px;
+    }
+}
+

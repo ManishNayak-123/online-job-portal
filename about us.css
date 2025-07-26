@@ -1,0 +1,162 @@
+*body{
+    color:white;
+    padding:0;
+    margin:0;   
+}
+#section{
+    height: 100px;
+    background-color:	#ff9933;
+    background-color:#387780;
+    display: flex;
+
+    
+   
+
+   
+}
+#logo{
+    height: 60px;
+    width:150px;
+    border:5px solid black;
+    padding:10px;
+    font-size: 25px;
+    background-color: white;
+    margin: 5px 0 5px 5px;
+    border-radius: 10px;
+ 
+}
+.j{
+    color:#ff9933;
+    font-size: 50px;
+    font-weight: bold;
+    
+    text-transform: none;
+} 
+/* #div-span{
+    height:20px;
+    width:20px;
+    background-color: white;
+    border:2px solid black;   
+} */
+#online{
+    font-size: 35px;
+    color:#ff9933;
+    font-weight: bold;
+    width: 450px;
+}
+
+#div-span-div{
+    height:80px;
+    width:150px;
+    background-color: white;
+    border:5px solid black;
+    margin: 5px 5px 5px 365px;
+    border-radius: 10px;
+    
+ 
+   
+}
+#div-imgage{
+    height: 80px;
+    width: 130px;
+    background-image: cover;
+    border-radius: 10px;
+    
+}
+#jobs{
+    height: 70px;
+    width:400px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left:320px;
+}
+#search{
+    height: 75px;
+    background-color:#ff9933 ;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.section-div{
+    background-color: #ff9933;
+    height: 60px;
+    margin-top: -20px;
+    
+}
+ul{
+    
+    list-style-type:none;
+    background-color: #ff9933;
+    
+}
+/* fitting of dropdown navbar */
+ .section-div ul li {
+    display: inline-block;
+    margin-top:15px;
+    color:black;
+    margin-left:130px;
+
+}
+
+ul li a{
+    
+    color:black;
+}
+ul li a:hover{
+    background-color: #387780;
+    border-radius: 2px;
+    color:#ff9933;
+    
+}
+.navbar{
+    text-decoration: none;
+    font-size:20px; 
+}
+
+#div-ul-li-span{
+    font-size: small;
+
+}
+.dropdown ul li hr{
+    background-color: #387780;
+}
+
+.dropdown{
+    display: none;
+    width: 320px;
+    
+}
+
+
+ul li:hover .dropdown {
+    display: block;
+    position:absolute;
+    margin-left:-3.5rem;
+    margin-top:4px;
+   cursor: pointer;
+   /* border-radius: 3px; */
+}
+.dropdown ul {
+    margin:0;
+    padding:0;
+    
+ }
+
+
+.dropdown ul li{
+    display:block;
+    font-size:medium;
+    padding: 1px;
+    margin-right: 10px;
+   
+}
+
+.dropdown ul li:hover{
+    background-color: #387780;
+    border-radius: 2px;
+    color: #ff9933;
+} 
+/* 
+for just of an website */
+
+
